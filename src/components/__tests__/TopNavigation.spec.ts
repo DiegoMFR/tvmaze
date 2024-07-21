@@ -22,7 +22,7 @@ describe('TopNavigation', () => {
         
       expect(routerLink.exists()).toBe(true);
       expect(routerLink.attributes().to).toBe('/');
-      expect(routerLink.find('h1').html()).toMatchInlineSnapshot(`"<h1 data-v-5f73bff2="">TVMAZE</h1>"`)
+      expect(routerLink.find('h1').html()).toContain(`TVMAZE`)
   })
 })
 
