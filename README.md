@@ -1,6 +1,6 @@
-# vueflix
+# TVMAZE
 
-This template should help get you started developing with Vue 3 in Vite.
+Small tv guide built with the tvmaze api.
 
 ## Recommended IDE Setup
 
